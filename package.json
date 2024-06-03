@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "lint": "eslint src --ext .ts --fix",
-    "knex": "node --no-warnings --import tsx ./node_modules/.bin/knex"
+    "knex": "node --no-warnings --import tsx ./node_modules/.bin/knex",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -21,10 +22,13 @@
   },
   "devDependencies": {
     "@types/node": "^20.12.12",
+    "@types/supertest": "^6.0.2",
     "@typescript-eslint/eslint-plugin": "^7.10.0",
     "@typescript-eslint/parser": "^7.10.0",
     "eslint": "^8.56.0",
+    "supertest": "^7.0.0",
     "tsx": "^4.11.0",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
   }
 }

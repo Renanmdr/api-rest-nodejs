@@ -1,6 +1,6 @@
 import { FastifyInstance } from 'fastify';
 import { knex } from '../database';
-import { z } from 'zod';
+import {z} from 'zod';
 import { checkSessionIdExist } from '../middlewares/check-session-id-exist';
 
 
